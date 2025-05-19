@@ -32,7 +32,7 @@
     color: grey;
     width: 100%; /* Ensures it spans the width if needed */
     text-align: left;
-    padding: 5px;
+    padding: 150px;
 }
 
 .logo{
@@ -41,14 +41,16 @@
     top:4
 }
 
-.products{
-    list-style-type:none;
+.products {
+    list-style-type: none;
     display: flex;
-    flex-direction:row;
-    padding-left: 570;
-    gap: 90px; /* Adds space between items */
-
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center; /* Aligns the images vertically */
+    gap: 90px; /* Space between images */
+    padding: 0;
+    margin: 0 auto; /* Centers the container */
 }
+
 
 .description-container {
     display: flex; /* Enables horizontal stacking */
@@ -147,3 +149,49 @@ body, html {
     font-size: 1.6rem; /* Adjust the size as needed */
 
   }
+
+  .clock{
+    text-align: left;
+  }
+
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.reviews-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.review-box {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.review-box h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.review-box p {
+  margin: 5px 0;
+}
