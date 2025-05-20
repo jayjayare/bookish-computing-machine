@@ -195,3 +195,7 @@ button {
 .review-box p {
   margin: 5px 0;
 }
+
+a:hover {
+  color:#95f9f9;
+}
